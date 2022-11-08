@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,37 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.black-bg {
+  background-color: black;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  font-size: 55px;
+}
+.white{
+  color: white;
+  display: block;
+  border: 2px solid white; 
+  padding: 15px 40px;
+  text-decoration: none;
+  margin-top: 40px;
 }
